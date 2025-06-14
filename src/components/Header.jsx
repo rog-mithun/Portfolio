@@ -52,7 +52,7 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-white/60 dark:bg-gray-950/80 backdrop-blur border-b border-white/10 shadow-md transition-colors">
-      <nav className="max-w-7xl mx-auto flex items-center justify-between p-4">
+      <nav className="max-w-7xl mx-auto flex flex-wrap items-center justify-between p-4 overflow-x-auto no-scrollbar">
         <h1 className="text-3xl font-extrabold text-white drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]">
           <span className="bg-gradient-to-r from-white via-gray-200 to-blue-200 bg-clip-text text-transparent">
             Mithunsankar
