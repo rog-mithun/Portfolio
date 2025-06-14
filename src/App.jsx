@@ -10,6 +10,7 @@ import BackToTop from "./components/BacktoTop.jsx";
 import FadeInSection from "./components/FadeInSection.jsx";
 import Certifications from "./components/Certifications.jsx";
 import BlobBackground from "./components/BlobBackground.jsx";
+import Footer from "./components/Footer.jsx";
 
 export default function App() {
   return (
@@ -31,6 +32,8 @@ export default function App() {
       </main>
 
       <BackToTop />
+      <Footer />
+
     </div>
   );
 }
