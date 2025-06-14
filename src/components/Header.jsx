@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { FaShareAlt } from "react-icons/fa";
 
 const sections = [
   "home",
@@ -32,6 +33,23 @@ export default function Header() {
     return () => observer.disconnect();
   }, []);
 
+  const handleShare = () => {
+    const shareData = {
+      title: "Check out my portfolio",
+      text: "Have a look at Mithunsankar's developer portfolio!",
+      url: window.location.href,
+    };
+
+    if (navigator.share) {
+      navigator.share(shareData)
+        .then(() => console.log('Shared successfully!'))
+        .catch((error) => console.error('Share failed:', error));
+    } else {
+      navigator.clipboard.writeText(window.location.href);
+      alert("Link copied to clipboard! You can share it manually.");
+    }
+  };
+
   return (
     <header className="sticky top-0 z-50 bg-white/60 dark:bg-gray-950/80 backdrop-blur border-b border-white/10 shadow-md transition-colors">
       <nav className="max-w-7xl mx-auto flex items-center justify-between p-4">
@@ -60,6 +78,15 @@ export default function Header() {
               {id}
             </a>
           ))}
+
+          {/* Share Button */}
+          <button
+            onClick={handleShare}
+            className="flex items-center gap-2 px-3 py-1 rounded hover:scale-105 transition text-sm font-semibold text-gray-800 dark:text-gray-200 hover:text-blue-400"
+          >
+            <FaShareAlt className="text-base" />
+            Share
+          </button>
         </div>
       </nav>
     </header>
