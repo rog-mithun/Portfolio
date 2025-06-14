@@ -105,7 +105,7 @@ const allProjects = [
   name: "My Portfolio",
   desc: "Modern animated developer portfolio with sparkle background effects, category tabs, and project filters.",
   category: "Web App",
-  link: "https://github.com/rog-mithun/Developer-Portfolio",
+  link: "https://github.com/rog-mithun/Portfolio",
   icon: <FaLaptopCode />,
   bg: "from-indigo-700 to-purple-700"
   }
