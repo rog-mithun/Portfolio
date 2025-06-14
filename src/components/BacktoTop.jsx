@@ -14,11 +14,13 @@ export default function BackToTop() {
     visible && (
       <button
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-        className="fixed bottom-5 right-5 sm:bottom-6 sm:right-6 bg-primary text-white p-2 sm:p-3 rounded-full shadow-md z-50 hover:opacity-90 transition-transform transform hover:scale-105"
+        className="fixed bottom-4 right-4 bg-primary text-white p-3 rounded-full shadow-md z-50 hover:opacity-90 transition-transform transform hover:scale-105"
         aria-label="Back to top"
-        style={{ maxWidth: 'calc(100vw - 1rem)' }} // ensures it's inside viewport
+        style={{
+          right: 'clamp(1rem, 4vw, 1.5rem)', // keeps it inside screen on all sizes
+        }}
       >
-        <FaArrowUp className="text-sm sm:text-base" />
+        <FaArrowUp className="text-base sm:text-lg" />
       </button>
     )
   );
