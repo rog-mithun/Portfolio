@@ -13,7 +13,7 @@ import BlobBackground from "./components/BlobBackground.jsx";
 
 export default function App() {
   return (
-    <div className="min-h-screen overflow-x-hidden bg-[#0a0f1c] text-white bg-[url('/particles.svg')] bg-fixed bg-cover">
+    <div className="min-h-screen overflow-x-clip bg-[#0a0f1c] text-white bg-[url('/particles.svg')] bg-fixed bg-cover">
       <Header />
       <BlobBackground />
 
