@@ -60,7 +60,7 @@ export default function About() {
 
           <div className="flex flex-wrap gap-4 items-center">
             <a
-              href="/public/Resume-Final.pdf"
+              href="/Resume-Final.pdf"
               download="Mithunsankar-Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
