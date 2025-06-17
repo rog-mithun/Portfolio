@@ -61,7 +61,9 @@ export default function About() {
           <div className="flex flex-wrap gap-4 items-center">
             <a
               href="/public/Resume-Final.pdf"
-              download
+              download="Mithunsankar-Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white text-black font-medium shadow-lg hover:scale-105 hover:opacity-90 transition"
             >
               <FaFileDownload /> Download Resume
