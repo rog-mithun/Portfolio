@@ -15,49 +15,50 @@ Welcome to the source code of my **personal developer portfolio**, built with mo
 
 ## 🛠️ Tech Stack
 
-- ⚛️ **React JS** – Component-based UI
-- ⚡ **Vite** – Blazing fast frontend build tool
-- 🎨 **Tailwind CSS** – Utility-first modern styling
-- 📁 **Modular File Structure** – For clean, scalable code
-- 🖼️ **SVG Animations & Background Effects** – Particles, blobs, sparkles
-- 📦 **Responsive Design** – Fully mobile & desktop compatible
+### Frontend:
+![HTML5](https://img.shields.io/badge/HTML5-e34f26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-264de4?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-f7df1e?style=flat&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232a?style=flat&logo=react&logoColor=61dafb)
+![Vite](https://img.shields.io/badge/Vite-646cff?style=flat&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38b2ac?style=flat&logo=tailwind-css&logoColor=white)
+
+### Deployment:
+![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=flat&logo=vercel)
 
 ---
 
-## 📁 Folder Structure
+## 📁 Project Structure
 
-```bash
-├── public/
-│   ├── Resume-Final.pdf      # Embedded resume
-│   └── particles.svg         # SVG background animation
-├── src/
-│   ├── assets/               # Static images (e.g., profile photo)
-│   ├── components/           # Reusable components (About, Contact, Projects, etc.)
-│   ├── data/                 # Structured data files (education, experience)
-│   ├── App.jsx               # Root application file
-│   ├── index.css             # Global Tailwind styles
-│   └── main.jsx              # Entry point (Vite)
-├── index.html                # Main HTML template
-├── tailwind.config.cjs       # Tailwind configuration
-├── postcss.config.cjs        # PostCSS plugins
-├── vite.config.js            # Vite configuration
-├── package.json              # Project metadata & dependencies
-└── .gitignore
+| File/Folder              | Description                                                      |
+|--------------------------|------------------------------------------------------------------|
+| `public/`                | Static files like `Resume-Final.pdf`, `particles.svg`           |
+| `src/assets/`            | Profile images and other static assets                          |
+| `src/components/`        | Modular React components like `About`, `Projects`, etc.         |
+| `src/data/`              | Data-driven content (`education.js`, `experience.js`)           |
+| `App.jsx`                | Root component where all sections are integrated                |
+| `index.css`              | Tailwind base styling                                            |
+| `main.jsx`               | App entry point and React DOM rendering                         |
+| `tailwind.config.cjs`    | Tailwind CSS configuration                                      |
+| `postcss.config.cjs`     | PostCSS setup for Tailwind                                       |
+| `vite.config.js`         | Vite build tool config                                           |
+| `package.json`           | Project dependencies and scripts                                |
+| `.gitignore`             | Files ignored in version control                                |
+| `index.html`             | Root HTML file for Vite                                         |
 
 ---
 
 ## ✨ Features
 
-📄 Resume Download – Easily accessible via PDF in the public folder
+- 📄 **Resume Download** – PDF resume accessible via the interface  
+- 🧩 **Component-Based Architecture** – Reusable, clean React components  
+- 🧠 **Data-Driven Sections** – Experience & education via structured JS files  
+- 🖼️ **Animated Visuals** – SVG backgrounds, particles, blobs, sparkles  
+- 🔼 **Back to Top Button** – Improves user navigation and accessibility  
+- 📱 **Responsive Design** – Optimized for mobile, tablet, and desktop views  
 
-🧩 Component-Based Architecture – About, Projects, Contact, Skills, etc.
+---
 
-🧠 Data-Driven Sections – Experience and Education loaded from data/
+## 📜 License
 
-🖼️ Animated Visuals – SVG backgrounds and scroll animations
-
-🔼 Back to Top button for enhanced UX
-
-📱 Fully Responsive – Smooth performance across devices
-
-
+This project is licensed under the MIT License © 2025 Mithunsankar S
