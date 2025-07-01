@@ -59,6 +59,6 @@ Welcome to the source code of my **personal developer portfolio**, built with mo
 
 ---
 
-## 📜 License
+## 📖 License
 
-This project is licensed under the MIT License © 2025 Mithunsankar S
+This project is licensed under the [MIT License](LICENSE) © 2025 Mithunsankar S
