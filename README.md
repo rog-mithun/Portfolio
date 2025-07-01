@@ -43,3 +43,21 @@ Welcome to the source code of my **personal developer portfolio**, built with mo
 ├── vite.config.js            # Vite configuration
 ├── package.json              # Project metadata & dependencies
 └── .gitignore
+
+---
+
+## ✨ Features
+
+📄 Resume Download – Easily accessible via PDF in the public folder
+
+🧩 Component-Based Architecture – About, Projects, Contact, Skills, etc.
+
+🧠 Data-Driven Sections – Experience and Education loaded from data/
+
+🖼️ Animated Visuals – SVG backgrounds and scroll animations
+
+🔼 Back to Top button for enhanced UX
+
+📱 Fully Responsive – Smooth performance across devices
+
+
